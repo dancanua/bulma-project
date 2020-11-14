@@ -1,0 +1,250 @@
+.whole-content {
+  display: none;
+}
+.preload { 
+  width:100px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+.body-container {
+  margin-top: -3%;
+}
+img#buy-house {
+  height: 450px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 60%, 99% 76%, 0 100%, 0% 60%, 0 0);
+}
+h1.title{
+  color: gray;
+  font-size: 55px;
+}
+h2.subtitle {
+  background-color: transparent;
+  border-style: solid;
+  border-width: thin;
+  border-color: #fff;
+  border-radius: 5px;
+  width: 35%;
+  height: auto;
+  padding: 15px;
+  color: #fff;
+}
+.body-title {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 3%;
+}
+.body-image {
+  height: 450px;
+  width: 450px;
+  clip-path: polygon(0 2%, 86% 14%, 100% 100%, 18% 97%);
+}
+nav.panel p.panel-heading{
+  margin-top: 10%;
+}
+p.body-desc {
+  padding: 15px;
+}
+.body-content-steps-title {
+  font-size: 35px;
+  margin-top: 3%;
+}
+.animate-bg {
+  background-color: #98FB98;
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 50%;
+  clip-path: polygon(34% 2%, 100% 2%, 100% 50%, 100% 100%, 32% 93%, 22% 52%);
+}
+p.is-size-4 {
+  font-size: 15px;
+}
+.card-content {
+  margin-left: 15%;
+  font-size: 20px;
+}
+.item__description {
+  word-wrap: break-word;
+}
+#slider {
+  margin-top: 5%;
+  position: relative;
+}
+.feedback-text {
+   font-size: 25px;
+   text-align: center;
+   margin-top: 5%;
+   position: relative;
+}
+.card {
+  margin-left: -3%;
+}
+.body-content-houses-title {
+  font-size: 35px;
+  margin-top: 3%;
+}
+.fotorama {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+
+
+/* Start of media queries */
+
+@media (min-width: 481px) and (max-width: 767px) {
+   /* CSS */
+   img {
+    height: 350px;
+   }
+   h1.title {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+   }
+   h2.subtitle {
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10%;
+    text-align: center;
+   }
+   button.my-button {
+    margin-left: 34%;
+    margin-top: 14%;
+    position: absolute;
+   }
+   .icons {
+    margin-left: 37%;
+    margin-top: -5%;
+    position: absolute;
+   }
+   .body-image {
+    height: 250px;
+    width: 250px;
+    margin-left: 28%;
+    margin-top: 1%;
+   }
+   .panel.is-success .panel-heading{
+    margin-top: 5%;
+   }
+   .animate-bg {
+    background-color: #98FB98;
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 50%;
+    clip-path: polygon(34% 2%, 100% 2%, 100% 50%, 100% 100%, 32% 93%, 22% 52%);
+   }
+   .card-content {
+    margin-left: 5%;
+    font-size: 16px;
+   }
+   .item__description {
+    word-wrap: break-word;
+   }
+   .fotorama {
+    margin-left: -1%;
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+  h2.subtitle {
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: left;
+   }
+   button.my-button {
+    margin-left: 1%;
+   }
+   .icons {
+    margin-left: 1%;
+   }
+   .animate-bg {
+    background-color: #98FB98;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 15%;
+    clip-path: polygon(34% 2%, 100% 2%, 100% 50%, 100% 100%, 32% 93%, 22% 52%);
+   }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  h2.subtitle {
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 5px;
+    width: 35%;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: left;
+   }
+   button.my-button {
+    margin-left: 1%;
+   }
+   .icons {
+    margin-left: 1%;
+   }
+   .body-image {
+    margin-left: 5%;
+   }
+   .fotorama {
+    margin-left: 15%;
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  h2.subtitle {
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 5px;
+    width: 45%;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: left;
+   }
+   .animate-bg {
+    background-color: #98FB98;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 45%;
+    clip-path: polygon(34% 2%, 100% 2%, 100% 50%, 100% 100%, 32% 93%, 22% 52%);
+   }
+   .fotorama {
+    margin-left: 15%;
+   }
+}
